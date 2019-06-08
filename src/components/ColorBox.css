@@ -1,4 +1,4 @@
-.colorbox{
+.colorbox {
     width: 20%;
     height: 25%;
     margin: 0 auto;
@@ -8,7 +8,7 @@
     margin-bottom: -3.5px;
 }
 
-.copy-btn{
+.copy-btn {
     width: 100px;
     height: 30px;
     position: absolute;
@@ -28,12 +28,13 @@
     opacity: 0;
 }
 
-.colorbox:hover .copy-btn{
+.colorbox:hover .copy-btn {
     opacity: 1;
     transition: 0.5s;
+    cursor: pointer;
 }
 
-.box-content{
+.box-content {
     position: absolute;
     padding: 10px;
     width: 100%;
@@ -45,7 +46,7 @@
     font-size: 12px;
 }
 
-.see-more{
+.see-more {
     background: rgba(255, 255, 255, 0.3);
     position: absolute;
     border: none;
