@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 import Slider from 'rc-slider'
 import Select from '@material-ui/core/Select'
+import { MenuItem, Snackbar } from '@material-ui/core';
+import CloseIcon from '@material-ui/icons/Close';
 import 'rc-slider/assets/index.css'
 import './Navbar.css'
-import { MenuItem } from '@material-ui/core';
 
 export default class Navbar extends Component {
     constructor(props) {
@@ -14,7 +15,6 @@ export default class Navbar extends Component {
 
     changeFormat(e) {
         this.setState({ format: e.target.value })
-        // alert()
     }
     render() {
         const { level, changeLevel } = this.props
